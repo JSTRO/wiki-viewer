@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wikipedia Viewer</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">
+			<img src="./imgs/wiki-logo.png" class="logo">
+		</a>
+		<div class="search">
+			<div class="row">
+				<input type="text" id="searchTerm" placeholder="Press <Enter> to search...">
+				<button type="submit" id="searchButton">
+					<i class="fa fa-search"></i>	
+				</button>	
+			</div>	
+		</div>
+		<div class="container">	
+			<ul id="output">
+			</ul>							
+		</div>	
+	</body>	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+		<script src="script.js"></script>
+</html>

@@ -1,0 +1,33 @@
+body {
+  font-family: 'Helvetica';
+  font-size: 20px;
+}
+
+.search {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#searchTerm {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 20px;
+  outline: none;
+  font-size: 20px;
+}
+
+#searchButton {
+  display: none;
+}
+
+.logo {
+  height: 10%;
+  width: 10%;
+  margin: 10% 45%;
+}
+
+li {
+  list-style-type: none;
+}
